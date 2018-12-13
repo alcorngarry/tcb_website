@@ -1,0 +1,93 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+.navbar {
+	height: 55px;
+	width: 100%;
+	background-color: #3d1957;
+	position: relative;
+	top: 0;
+	text-align: center;
+}
+
+.navbar img {
+	height: 70px;
+	width: 70px;
+	float: left;
+	padding: 10px 10px 0px 10px;
+}
+
+.navbar h2 {
+	float: left;
+	font-size: 30px;
+	font-family: 'Courgette', cursive;
+	color: white;
+	margin-top: 8.5px;
+	margin-bottom: 8.5px;
+}
+
+.navbar ul {
+	margin: 0px 0px;
+	padding-left: 0px;
+}
+
+.navbar ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0px 0px;
+	font-size: 20px;
+	padding: 15.5px 10px 15.5px 10px;
+	height: 100%;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.navbar ul li:hover{
+	font-style: italic;
+}
+
+.text_panel {
+	background-color: white;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+	padding: 10px 10px;
+	font-size: 20px;
+}
+
+.text_panel img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.text_panel h2 {
+	font-size: 25px;
+	font-style: bold;
+}
+
+.interest_form {
+	border: 3px solid grey;
+	border-radius: 10px;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	padding: 10px 10px;
+}
+
+.interest_form p {
+	margin: 0px;
+}
+
+input[name="email"] {
+	width: 350px;
+}
+input[type="submit"] {
+	margin-top: 10px;
+}
